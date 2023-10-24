@@ -10,9 +10,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div >
+    <div style={{backgroundImage:`url("https://i.pinimg.com/564x/e0/f8/e6/e0f8e694740dc39188481932dce9b164.jpg")`}} >
       <Navbar/>
-      <h1>projeto</h1>
+      <h3>bem-vindo</h3>
       <Outlet/>
 
     </div>
