@@ -1,19 +1,21 @@
 #root {
-  max-width: 1280px;
+  max-width:100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(0, 0, 0);
 }
-div{
-  background-color: rgb(228, 222, 222);
-  filter: opacity(55%);
+
+.caixap{
+  position: relative;
+  left: 60px;
+  top: 30px;
+  filter: opacity(85%);
   border-radius: 10%;
-  width: 50%;
-  height: 400px;
+  width: 90%;
+  height: 500px;
 }
-div img{
-  max-width: 100%;
-}
+
 
 
 

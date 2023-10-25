@@ -1,4 +1,5 @@
 import React from "react"
+import styles from '../css/Ingles.module.css';
 const Ingles = () => {
     return(
         <div> 
