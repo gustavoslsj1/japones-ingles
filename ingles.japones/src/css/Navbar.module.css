@@ -16,10 +16,11 @@
     top: 0%;
     margin-left: 10%;
     filter: opacity(70);
+    
 }
 a{
     font-weight: 500;
-    color: #fafafa;
+    color: #050505;
     text-decoration: inherit;
 }
 
@@ -29,7 +30,7 @@ a{
       background-color: #ffffff;
     }
     a:hover {
-      color: #747bff;
+      color: #5961f5;
     }
     button {
       background-color: #f9f9f9;
