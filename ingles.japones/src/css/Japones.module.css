@@ -1,3 +1,18 @@
 h1{
-    color: white;
+    color:  black;
+}
+.start{
+    position: relative;
+    top: 50px;
+    
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(34, 248, 6);
+    padding: 30px;
+}
+
+.caixa1{
+    position: relative;
+    top: 120px;
+    
 }

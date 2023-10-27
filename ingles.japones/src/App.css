@@ -10,8 +10,10 @@
   position: relative;
   left: 60px;
   top: 30px;
-  filter: opacity(75%);
+  filter: opacity(69%);
   border-radius: 10%;
+  border: 2px solid black;
+  box-shadow: 10px 5px 10px black;
   width: 90%;
   height: 500px;
 }
