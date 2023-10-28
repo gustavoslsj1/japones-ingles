@@ -17,3 +17,10 @@ h1{
     border: 2px solid black;
     border-radius: 25%;
 }
+img{
+    position: relative;
+    width: 80px;
+    right: 100px;
+    padding-bottom: 40px;
+
+}
