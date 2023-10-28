@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
+  background-color: #FFF2D8;
 }
 
 .caixap{
@@ -12,7 +12,7 @@
   top: 30px;
   filter: opacity(69%);
   border-radius: 10%;
-  border: 2px solid black;
+  border: 2px solid #EAD7BB;
   box-shadow: 10px 5px 10px black;
   width: 90%;
   height: 500px;
