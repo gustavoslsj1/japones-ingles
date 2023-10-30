@@ -24,7 +24,7 @@ const Japones = ()=> {
             <div>
                 {showButton ?<button onClick={handleclick} className={styles.start}> iniciar </button> :null}
                 {showElement? <input type="text" className={styles.caixa1} /> :null}
-                {showImagem?<img src={imagens} ></img>: null}
+                
             </div>
         </div>
         
