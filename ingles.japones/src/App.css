@@ -1,21 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 #root {
-  max-width:100%;
-  margin: 0 auto;
-  padding: 2rem;
+  display: table;
+  padding: 100px 0 ;
   text-align: center;
-  background-color: #FFF2D8;
+  background-color: #c9942a;
+  width: 100%;
+  overflow: hidden;
+  background: url('https://i.pinimg.com/236x/a6/90/4a/a6904a285c469fc81c182ad116e936e2.jpg');
+  background-position: 20% 10%;
+  
+}
+h2{
+  position: relative;
+  top: 50px;
+  font-style: italic;
+  font-weight: 100;
+  color: black;
+  
+}
+h3{
+  position: relative;
+  color: black;
+  top: 10px;
 }
 
 .caixap{
   position: relative;
   left: 60px;
   top: 30px;
-  filter: opacity(69%);
+  filter: opacity(80%);
   border-radius: 10%;
-  border: 2px solid #EAD7BB;
+  border: 2px;
   box-shadow: 10px 5px 10px black;
   width: 90%;
   height: 500px;
+  background-color: rgb(44, 44, 44);
 }
 
 

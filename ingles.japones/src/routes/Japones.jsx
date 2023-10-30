@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import styles from '../css/Japones.module.css'
-import katana from '../img/Katana.jpg'
+import katana from '../img/katana.jpg'
+import trem from '../img/trem.jpg'
 
 const Japones = ()=> {
+
+    
     const [showElement, setShowELement] = useState(false)
     const [showButton , setShowButton] = useState(true)
     const [showImagem , setShowImagem] = useState(false)
@@ -14,23 +17,14 @@ const Japones = ()=> {
         setShowELement(true)
         setShowButton(false)
         setShowImagem(true)
-        setNum(randomNum(1,20));
-        
-        if (num == 1){
-            console.log('oi')
-        }else{
-            console.log('ola')
-        }
+        setNum(randomNum(1,2));
     }
     return(
         <div>
             <div>
-                <h1>Japones</h1>
-            </div>
-            <div>
-                {showButton ?<button onClick={handleclick} className={styles.start}> iniciar</button> :null}
+                {showButton ?<button onClick={handleclick} className={styles.start}> iniciar </button> :null}
                 {showElement? <input type="text" className={styles.caixa1} /> :null}
-                {showImagem?<img src={katana}></img>:null}
+                {showImagem?<img src={imagens} ></img>: null}
             </div>
         </div>
         

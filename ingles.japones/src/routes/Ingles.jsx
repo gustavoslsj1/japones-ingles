@@ -11,7 +11,7 @@ const Ingles = () => {
         <div> 
             <h2> Ingles</h2>
             {showElement?<input type="text"></input>:null}
-            {showButton? <button onClick={handleclick}>iniciar</button>:null}
+            {showButton? <button onClick={handleclick} >iniciar</button>:null}
         </div>
     )
 } 
