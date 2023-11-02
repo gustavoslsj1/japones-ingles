@@ -17,3 +17,4 @@ const Ingles = () => {
 } 
 
 export default Ingles
+
