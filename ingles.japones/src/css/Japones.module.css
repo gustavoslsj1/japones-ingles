@@ -32,8 +32,37 @@ img{
 .next{
     top: 100px;
     right: 170px;
+    border: 20px black;
     padding-right: 30px;
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
+
+}
+.estilos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estilos_jogo{
+    position: relative;
+    right: 30%;
+
+}
+.tradicional{
+    position: relative;
+    left: 30%;
+}
+.tradutor{
+    position: relative;
+    right: 10%;
+}
+.tradutor:hover{
+    color: brown;
+}
+.tradicional:hover{
+    color: brown;
+}
+.estilos_jogo:hover{
+    color: brown;
 }
