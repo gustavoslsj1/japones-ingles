@@ -46,16 +46,28 @@ img{
 }
 .estilos_jogo{
     position: relative;
+    top:50px;
     right: 30%;
+    border: none;
+    background: none;
+    font-size: x-large;
 
 }
 .tradicional{
     position: relative;
+    top: 50px;
     left: 30%;
+    border: none;
+    background: none;
+    font-size: x-large;
 }
 .tradutor{
     position: relative;
+    top: 50px;
     right: 10%;
+    border: none;
+    background: none;
+    font-size: x-large;
 }
 .tradutor:hover{
     color: brown;
