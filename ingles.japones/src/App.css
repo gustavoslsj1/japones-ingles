@@ -30,13 +30,12 @@ h3{
 .caixap{
   position: relative;
   left: 60px;
-  top: 30px;
   filter: opacity(80%);
   border-radius: 10%;
   border: 1px solid white;
   box-shadow: 5px 2px 5px rgb(255, 255, 255);
   width: 90%;
-  height: 500px;
+  height: 451px;
   background-color: rgb(44, 44, 44);
 }
 
